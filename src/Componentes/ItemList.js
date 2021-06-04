@@ -1,13 +1,16 @@
-import React from 'react';
-import Item from "../Componentes/Item";
+import React from "react";
+import Item from "../componentes/Item";
 
-export default function ItemList ({id, title, description, img, price}) {
-
-    return ( 
-        <div className="ItemList">
-            <Item  id={id} title={title} description={description} img={img} price={price}/>
-        </div>
-     );
-
-};
-
+export default function ItemList({ id, title, description, img, price }) {
+  return (
+    <div className="ItemList">
+      <Item
+        id={id}
+        title={title}
+        description={description}
+        img={img}
+        price={price}
+      />
+    </div>
+  );
+}
